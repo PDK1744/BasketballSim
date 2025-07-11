@@ -35,8 +35,6 @@ This is a console-based Java application that simulates a single-elimination bas
 
 This project was built to practice:
 - Class design and object interaction
-- Loops and conditionals
-- Using `Scanner` for user input
 - Working with lists and basic simulation logic
 
 ---
