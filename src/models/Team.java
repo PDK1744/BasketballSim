@@ -1,5 +1,6 @@
 package models;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Team {
@@ -15,6 +16,10 @@ public class Team {
         return teamName;
     }
 
+    public List<Player> getPlayers() {
+        return players;
+    }
+
     public int calculateTeamStrength() {
         int sum = 0;
         for (Player player : players) {
@@ -25,6 +30,8 @@ public class Team {
         int average = sum / players.size();
         return average;
     }
+
+
 
 
 }
